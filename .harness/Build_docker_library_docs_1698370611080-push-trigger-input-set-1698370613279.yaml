@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_docker_library_docs_1698370611080-push-trigger-input-set
+  identifier: Build_docker_library_docs_1698370611080pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_docker_library_docs_1698370611080
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
